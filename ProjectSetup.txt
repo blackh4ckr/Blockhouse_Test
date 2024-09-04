@@ -1,0 +1,18 @@
+1. Initialize a Next.js Project:
+npx create-next-app@latest nextjs-dashboard --typescript
+cd nextjs-dashboard
+
+2: Install Necessary Libraries:
+npm install chart.js react-chartjs-2 axios
+
+a. Chart.js and react-chartjs-2: For creating various charts.
+b. Axios: For making HTTP requests to the Django API.
+
+3: Set Up a Django Project:
+pip install django djangorestframework
+django-admin startproject dashboard_backend
+cd dashboard_backend
+
+
+4: Create a Django App
+python manage.py startapp charts
